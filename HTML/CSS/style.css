@@ -1,0 +1,149 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Nord;
+    src: url(Nord.otf);
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/* titulo */
+
+#logo {
+  width: 100px;
+  outline: 3px solid rgb(95, 18, 189);
+  margin: 5px;
+}
+
+#titulo {
+  margin-left: 5px;
+  margin-top: 10px;
+  font-size: 80px;
+  color: rgb(43, 32, 203);
+  font-family: Nord;
+}
+#fondo-titulo {
+  background-image: linear-gradient(to right,rgb(51, 0, 255), rgb(255, 81, 0));
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-left: 125px;
+}
+
+#logow{
+    width: 30px;
+}
+#telefono{
+    font-size: 30px;
+    margin: 30px;
+    color: rgb(255, 255, 255);
+    
+}
+/* fin de titulo */
+
+/* Contenido */
+body{
+  background-color: black;
+}
+
+#fondoMenu{
+    background-image: url(Imagenes/t1K2VJ6-1978035727.jpeg);
+    background-size: 100% ;
+    background-repeat: no-repeat;
+}
+#menuTexto{
+    font-family: Nord;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 100px;
+}
+.pastel{
+    border: 5px solid rgb(191, 217, 230);
+    background-color: rgb(14, 2, 75);
+    border-radius: 15px;
+    padding: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.pastel-texto{
+    text-align: center;
+    color: aliceblue;
+    font-family: nord;
+}
+
+.botonMenu{
+  text-align: center;
+ 
+}
+.boton{
+    cursor: pointer;
+    background-color: #3b0d0d; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    font-family: nord; 
+    transition-duration: 0.4s;
+    outline: 2px solid rgb(73, 12, 12);
+}
+.boton:hover{
+  background-color: white;
+  color: black;
+}
+/* fin de contenido */
+
+/* Footer */
+.footer{
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+/* fin de Footer */
+
+
+/* ---------------------------------------- */
+
+.pedido{
+  border: 5px solid rgb(191, 217, 230);
+    background-color: rgb(14, 2, 75);
+    border-radius: 15px;
+    padding: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+    font-family: nord;
+    color: white;
+    text-align: center;
+}
+.pedido-forma{
+  color: white;
+}
+
+/* ----------------------------------------- */
+
+.admin{
+  border: 5px solid rgb(191, 217, 230);
+  background-color: rgb(14, 2, 75);
+  border-radius: 15px;
+  padding: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+  color: white;
+}
